@@ -4,7 +4,6 @@ import Banner from "../components/sections/Banner";
 import WhoWeAre from "../components/sections/WhoWeAre";
 import UsefulProducts from "../components/sections/UsefulProducts";
 import ExpertiseAreas from "../components/sections/ExpertiseAreas";
-import Testimonials from "../components/sections/Testimonials";
 
 import { AppContext } from "../context/app";
 
@@ -22,7 +21,6 @@ const Home = () => {
       <WhoWeAre {...whoWeAre} />
       <UsefulProducts {...usefulProducts} />
       <ExpertiseAreas {...expertiseAreas} />
-      <Testimonials {...testimonials} />
     </>
   );
 };
