@@ -10,7 +10,7 @@ import { AppContext } from "../context/app";
 const Home = () => {
   const {
     pages: {
-      home: { whoWeAre, usefulProducts, expertiseAreas, testimonials }
+      home: { whoWeAre, usefulProducts, expertiseAreas }
     }
   } = useContext(AppContext);
 
